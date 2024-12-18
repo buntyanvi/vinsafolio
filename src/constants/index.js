@@ -28,8 +28,8 @@ export const clientReviews = [
     position: 'MERN Stack Developer',
     img: 'assets/krishna.png',
     review:
-    'Vignesh expertise in web development is exceptional. He created a scalable job portal application using the MERN stack, resulting in significant improvements in performance and user engagement  '
-      ,
+      'Vignesh expertise in web development is exceptional. He created a scalable job portal application using the MERN stack, resulting in significant improvements in performance and user engagement  '
+    ,
   },
   {
     id: 2,
@@ -60,9 +60,9 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'Attendance Using Face Recognition',
-    desc: 'Created an automated attendance system using face recognition technology with Python. Reduced manual errors by 85% through accurate facial recognition.',
+    desc: 'Developed a facial recognition-based attendance system to automate tracking, leveraging Python, OpenCV for real-time face detection and user management.',
     subdesc:
-      'Included real-time detection and integration with existing databases. Streamlined attendance management by automating the process.',
+      ' Integrated Haar Cascade classifiers for robust face detection and trained a K-Nearest Neighbors (KNN) model for accurate face recognition, ensuring reliable attendance logging with a user-friendly web interface',
     href: 'https://github.com/buntyanvi/Attendance_Using_Face_Recognition',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/facerec.png',
@@ -134,9 +134,9 @@ export const myProjects = [
   },
   {
     title: 'Smoke Detection Using Machine Learning',
-    desc: 'Developed a machine learning model in Python for real-time smoke detection using sensor data. Achieved a detection accuracy of 95%, significantly reducing false positives in smoke identification.',
+    desc: 'Developed a machine learning-based smoke detection system leveraging environmental sensor data for real-time fire safety monitoring.',
     subdesc:
-      'Demonstrated strong skills in machine learning and data analysis throughout the project and Utilized various algorithms and techniques to enhance model performance and reliability.',
+      'Utilized a hybrid model combining Principal Component Analysis (PCA) for dimensionality reduction and a Random Forest classifier for smoke detection, achieving 93% accuracy in predictions with Python and Scikit-learn',
     href: 'https://github.com/buntyanvi/Smoke_Detection_ML',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/smoke.png',
@@ -208,7 +208,7 @@ export const myProjects = [
       },
     ],
   },
-  
+
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -228,25 +228,25 @@ export const workExperiences = [
     name: 'Edunet Foundations',
     pos: 'Full Stack Web Developer Intern',
     duration: 'Feb 2024 - Apr 2024',
-    title: "Managed both frontend and backend development, enhancing user experience and reducing project completion time. Implemented best practices in responsive design and created user-friendly interfaces.",
+    title: "Developed a job portal application using the MERN stack with features like job listings, applications, and user authentication, implementing Material UI, Apollo Client, Express.js, MongoDB, JWT, and NodeMailer for frontend design, state management, backend logic, and email functionality",
     icon: '/assets/edunet.jpg',
     animation: 'victory',
   },
-  {
-    id: 2,
-    name: 'Upskill Campus',
-    pos: 'Cloud Computing Intern',
-    duration: 'June 2024 - Present',
-    title: "Gained knowledge in AWS services and fundamentals of cloud computing, focusing on cloud infrastructure management, optimization, and cloud service exploration across AWS.",
-    icon: '/assets/upskill.jpg',
-    animation: 'clapping',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Upskill Campus',
+  //   pos: 'Cloud Computing Intern',
+  //   duration: 'June 2024 - Present',
+  //   title: "Gained knowledge in AWS services and fundamentals of cloud computing, focusing on cloud infrastructure management, optimization, and cloud service exploration across AWS.",
+  //   icon: '/assets/upskill.jpg',
+  //   animation: 'clapping',
+  // },
   {
     id: 3,
     name: 'AICTE Virtual Internship',
     pos: 'Intern',
     duration: 'May 2023- Present',
-    title: "Completed Cloud Foundations and Cloud Architecting courses, gaining hands-on experience in cloud technologies and architecture as part of the virtual internship program.",
+    title: " Acquired comprehensive knowledge of core AWS services including EC2, S3, RDS, VPC, and IAM, strengthening cloud computing expertise.",
     icon: '/assets/aicte.jpeg',
     animation: 'salute',
   },

@@ -23,9 +23,9 @@ const About = () => {
             <img src="assets/photo.jpg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Vignesh Lagishetti</p>
+              <p className="grid-headtext">Hi, I’m Lagishetti Vignesh</p>
               <p className="grid-subtext">
-              Aspiring entry-level Software Engineer and AWS Cloud Engineer with a passion for the MERN stack and Python development.
+              Entry-level Software Engineer and AWS Cloud Engineer seeking to leverage strong skills in full-stack development, cloud computing, and machine learning to contribute to innovative projects and drive technical excellence.
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[300px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
