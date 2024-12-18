@@ -64,6 +64,7 @@ export const myProjects = [
     subdesc:
       ' Integrated Haar Cascade classifiers for robust face detection and trained a K-Nearest Neighbors (KNN) model for accurate face recognition, ensuring reliable attendance logging with a user-friendly web interface',
     href: 'https://github.com/buntyanvi/Attendance_Using_Face_Recognition',
+    liveUrl: "https://project1.com",
     texture: '/textures/project/project1.mp4',
     logo: '/assets/facerec.png',
     logoStyle: {
@@ -101,6 +102,7 @@ export const myProjects = [
     subdesc:
       'Optimized application performance, resulting in a 30% improvement in load times and a 25% increase in user engagement and Integrated advanced search and filtering features to provide an improved user experience and better job matching.',
     href: 'https://github.com/buntyanvi/Job_Portal_MERN',
+    liveUrl: "https://project1.com",
     texture: '/textures/project/project2.mp4',
     logo: '/assets/job.png',
     logoStyle: {
@@ -138,6 +140,7 @@ export const myProjects = [
     subdesc:
       'Utilized a hybrid model combining Principal Component Analysis (PCA) for dimensionality reduction and a Random Forest classifier for smoke detection, achieving 93% accuracy in predictions with Python and Scikit-learn',
     href: 'https://github.com/buntyanvi/Smoke_Detection_ML',
+    liveUrl: "https://project1.com",
     texture: '/textures/project/project3.mp4',
     logo: '/assets/smoke.png',
     logoStyle: {
@@ -177,6 +180,7 @@ export const myProjects = [
     subdesc:
       'Designed to streamline store operations and automate sales reporting processes and Enhanced user experience through an intuitive interface and responsive design',
     href: 'https://github.com/buntyanvi/General_store_management_system',
+    liveUrl: "https://project1.com",
     texture: '/textures/project/project4.mp4',
     logo: '/assets/store.png',
     logoStyle: {

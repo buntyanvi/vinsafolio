@@ -59,6 +59,7 @@ const Projects = () => {
               ))}
             </div>
 
+            {/* GitHub Button */}
             <a
               className="flex items-center gap-2 cursor-pointer text-white-600"
               href={currentProject.href}
@@ -67,6 +68,18 @@ const Projects = () => {
               <p>GitHub</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
+
+            {/* Live Button */}
+            {currentProject.liveUrl && (
+              <a
+                className="flex items-center gap-2 cursor-pointer text-white-600"
+                href={currentProject.liveUrl}
+                target="_blank"
+                rel="noreferrer">
+                <p>Live</p>
+                <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              </a>
+            )}
           </div>
 
           <div className="flex justify-between items-center mt-7">
